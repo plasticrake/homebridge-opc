@@ -1,0 +1,35 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+
+  "description": "This is an example configuration file. You can use this as a template for creating your own configuration file.",
+
+  "platforms": [],
+
+  "accessories": [{
+      "accessory": "OpcAccessory",
+      "name": "Light Strip",
+      "pixelCount": 64,
+      "host": "localhost",
+      "port": 7890,
+      "strands": [
+        {
+          "firstPixelIndex": 0,
+          "lastPixelIndex": 8
+        },
+        {
+          "firstPixelIndex": 27,
+          "lastPixelIndex": 35
+        },
+        {
+          "firstPixelIndex": 63,
+          "lastPixelIndex": 63
+        }
+      ]
+  }]
+
+}
