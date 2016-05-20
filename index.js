@@ -113,7 +113,6 @@ OpcAccessory.prototype = {
     });
 
     this.opcClient.setPixelColors(0, pixelData);
-    //this.opcClient.setPixelColors(0, pixelData); // sending twice otherwise it will slowly fade
 
     this.log('Colors: ' + pixelData.join(', '));
   },

@@ -13,7 +13,6 @@
   "accessories": [{
       "accessory": "OpcAccessory",
       "name": "Light Strip",
-      "pixelCount": 64,
       "host": "localhost",
       "port": 7890,
       "strands": [

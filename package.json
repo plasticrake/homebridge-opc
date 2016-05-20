@@ -1,7 +1,7 @@
 {
     "name": "homebridge-opc",
-    "version": "0.0.1",
-    "description": "Open Pixel Control (OPC) plugin for homebridge",
+    "version": "0.0.2",
+    "description": "Open Pixel Control (OPC) plugin for Homebridge",
     "repository": {
         "type": "git",
         "url": "git://github.com/plasticrake/homebridge-opc.git"
