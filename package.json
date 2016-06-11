@@ -1,6 +1,6 @@
 {
   "name": "homebridge-opc",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Open Pixel Control (OPC) plugin for Homebridge",
   "author": "Patrick Seal",
   "license": "MIT",
