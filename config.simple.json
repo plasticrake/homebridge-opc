@@ -10,26 +10,16 @@
 
     "platforms": [],
 
-    "accessories": [
-      {
+    "accessories": [{
         "accessory": "OpcAccessory",
         "name": "Light Strip",
         "host": "localhost",
         "port": 7890,
 
-        "fadeDuration": 1000,
-        "fadeOnDuration": 1000,
-        "fadeOffDuration": 1000,
-
         "lightbulbs": [
-          { "name": "Left", "map": [ [0, 0] ] },
-          { "name": "Right", "map": [ [0, 39] ] }
-        ],
-
-        "gradients": [{
-            "lightbulbNames": ["Left", "Right"],
-            "map": [ [0, 1, 38, 1] ]
-        }]
+          { "name": "Strand", "map": [ [0, 0, 10] ] }
+        ]
 
     }]
+
 }
