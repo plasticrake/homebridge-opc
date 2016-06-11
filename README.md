@@ -37,7 +37,7 @@ Channel 0, pixels 0 through 3:
 "map": [ [0,0], [0,1], [0,2], [0,3] ] // Individual
 ```
 
-Channel 1, pixels 3 through 8:
+Channel 1, pixels 6 through 8:
 ```javascript
 "map": [ [ 1, 6, 3 ] ] // As a Range
 "map": [ [1,6], [1,7], [1,8] ] // Individual
